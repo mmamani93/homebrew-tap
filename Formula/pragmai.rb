@@ -1,7 +1,6 @@
 class Pragmai < Formula
   desc "Privacy-safe local connector for PragmAI"
   homepage "https://github.com/mmamani93/pragm-ai-core"
-  version "0.7.4"
   license "MPL-2.0"
 
   depends_on :macos
