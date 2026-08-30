@@ -6,11 +6,11 @@ class Pragmai < Formula
   depends_on :macos
 
   if Hardware::CPU.arm?
-    url "https://github.com/mmamani93/pragm-ai-core/releases/download/v0.7.7/pragmai-macos-arm64.tar.gz"
-    sha256 "8228b0fe79087ea89de4b137019d0df2628f1ed2ac98b22cc31f16e3d9ab193b"
+    url "https://github.com/mmamani93/pragm-ai-core/releases/download/v0.7.8/pragmai-macos-arm64.tar.gz"
+    sha256 "f325ed86428e4fed9ce4c80f3cc17057c7916519295b51ee483b6e65b6e67d61"
   else
-    url "https://github.com/mmamani93/pragm-ai-core/releases/download/v0.7.7/pragmai-macos-x64.tar.gz"
-    sha256 "835aa068b77e41c8feb78d4787bba68d4f50b66e210ef03b45a62abc89cbea54"
+    url "https://github.com/mmamani93/pragm-ai-core/releases/download/v0.7.8/pragmai-macos-x64.tar.gz"
+    sha256 "7c38c44fb05300b2514025c73ef78a14391fa03a6d5041e986f9ea0c63b82fe8"
   end
 
   def install
